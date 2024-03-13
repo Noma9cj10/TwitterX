@@ -1,0 +1,76 @@
+/* style.css */
+.tweet-ish h2 {
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+.tweet-box {
+    margin: 30px auto 50px;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.user-info {
+    width: 225px;
+}
+
+.user-info img {
+    max-width: 60px;
+    max-height: 60px;
+    float: left;
+    margin-right: 5px;
+}
+
+.tweet-content {
+    width: 450px;
+    padding: 30px;
+}
+
+.tweet-content img {
+    max-height: 300px;
+    max-width: 450px;
+}
+
+textarea {
+    height: 200px;
+    width: 600px;
+    margin-top: 5px;
+}
+.tweet-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    margin: 15px 0 20px;
+    padding: 10px;
+    width: 750px;
+    min-height: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+.created-at {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.delete-form {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.TimeLine h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(120, 160, 240);
+}
