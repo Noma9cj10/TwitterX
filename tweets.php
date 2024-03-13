@@ -11,7 +11,7 @@ try {
     die('データベースに接続できませんでした: ' . $e->getMessage());
 }
 ?>
-<html>
+<html lang="ja">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
